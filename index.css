@@ -1,9 +1,22 @@
-#principal-image{
-	width: 400px;
-}
 #container{
 	display: flex;
 }
+
+#image-and-logo{
+	margin-right: 50px;
+}
+
+#content{
+}
+
+#principal-image{
+	width: 400px;
+}
+
+#container-logo{
+	display: flex;
+}
+
 .logo{
 	position: absolute;
 	top: 125px;
@@ -11,12 +24,68 @@
 	width: 400px;
 	height: 100px;
 }
+
 #image-logo{
 	width: 200px;
 	height: 90px;
 	text-align: center;
 }
+
 #odin-text{
 	color: white;
 	font-size: 30px;
+}
+
+#create-account-btn{
+	color: white;
+	background-color: #596D48;
+	width: 150px;
+	height: 35px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+a{
+	color: #596D48;
+}
+
+.form-flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+	box-shadow: 10px 5px 5px black;
+	padding-bottom: 20px;
+}
+
+#container-inputs{
+	display: flex;
+}
+
+.input-group{
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+}
+
+.input-individual{
+    margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+input{
+	border-color: #E5E7EB;
+	border-style: solid;
+	border-width: 1px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+.error{
+	border-color: red;
+	border-style: solid;
+	border-width: 1px;
+	height: 20px;
+	border-radius: 5px;
 }
