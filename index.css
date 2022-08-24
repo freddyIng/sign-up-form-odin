@@ -1,0 +1,22 @@
+#principal-image{
+	width: 400px;
+}
+#container{
+	display: flex;
+}
+.logo{
+	position: absolute;
+	top: 125px;
+	background-color: rgba(0,0,0,0.7);
+	width: 400px;
+	height: 100px;
+}
+#image-logo{
+	width: 200px;
+	height: 90px;
+	text-align: center;
+}
+#odin-text{
+	color: white;
+	font-size: 30px;
+}
